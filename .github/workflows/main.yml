@@ -1,1 +1,13 @@
+on:
+  push:
+    branches:
+      - maste
 
+
+
+
+jobs:
+  build:
+    run-on: ubuntu-latest
+
+    steps:
