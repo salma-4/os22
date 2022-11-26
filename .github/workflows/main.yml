@@ -10,4 +10,9 @@ jobs:
   build:
     run-on: ubuntu-latest
 
-    steps:
+    steps: 
+      - name: 'Testing Github action'
+        run: pwd 
+
+      - name: 'Testing Printing'
+        run: echo Ahmed 
